@@ -1,0 +1,31 @@
+<div class="message-box">
+            <div class="box-top">
+              <div class="name">
+              </div>
+              <div class="more">
+                <span><%= image_tag 'arrow_top.png' %></span>
+                <ul class = "more_list"> 
+                  <li>
+                    <%= link_to '削除',"/posts/#{post.id}", method: :delete %>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="box-center">
+              <div class="text-box">
+                <%= post.body %>
+              </div>
+              <div class="image-box">
+                <% if post.image? %>
+                <%= image_tag post.image.url, :size =>'400x350' %>
+                <% end %>
+              <div>
+            </div>
+            <div class="box-bottom">
+              <div class="good-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>

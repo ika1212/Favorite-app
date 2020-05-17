@@ -1,0 +1,9 @@
+
+<%= form_with model: @post, class: :form, local: true do |form| %>
+  <%= form.text_area :body,placeholeder: :本文, class: :form__text%>
+  <%= form.file_field :image, class: :form__image%> 
+  <%= form.submit '投稿', class: :form__btn %>
+<% end %>
+
+
+
