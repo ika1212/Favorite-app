@@ -6,9 +6,26 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <meta charset="utf-8">
+    <link rel="stylesheets" href="_reset.scss" >
+    <link rel="stylesheets" href="_post.scss" >
+    <link rel="stylesheets" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
 
   <body>
+   <div class="wrapper">
+      <div class="header">
+        <h1 class="header-title">
+         <%= link_to "Favorite", root_path, class: "header__title" %>
+        </h1>
+        <ul class="header-logo">
+          <%= link_to  new_post_path do%>
+            <li><i class="far fa-edit fa-2x"></i></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
     <%= yield %>
   </body>
 </html>
