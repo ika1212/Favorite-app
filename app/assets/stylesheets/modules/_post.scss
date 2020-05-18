@@ -65,7 +65,10 @@
 
           .name {
             font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
             padding-left: 20px;
+            
 
           }
           .post-time {
@@ -88,6 +91,7 @@
           .image-box {
             width: 450px;
             height: 100%;
+            padding:20px;
           
             
           }
@@ -132,6 +136,10 @@
           input {
           width:300px;
           height: 40px;
+          }
+          input#user_remember_me{
+            width: 30px;
+            height: 16px;
           }
         }  
      }
