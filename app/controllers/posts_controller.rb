@@ -1,10 +1,15 @@
 class PostsController < ApplicationController
   def index
-   @posts = Post.all
+   @posts = Post.includes(:user)
   end
 
   def new
     @post = Post.new
+  end
+
+  def show 
+    @post = Post.find(params[:id])
+    @like = Like.new
   end
 
   def create
@@ -21,7 +26,7 @@ class PostsController < ApplicationController
 
   private
   def post_params
-    params.require(:post).permit(:body, :image)
+    params.require(:post).permit(:body, :image).merge(user_id: current_user.id)
   end
 
 end
