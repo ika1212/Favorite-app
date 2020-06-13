@@ -20,25 +20,6 @@
 - has_many :tags, through: :posts_tags
 - has_many :likes
 
-
-## tagsモデル
-|Column|Type|Options|
-|------|----|-------|
-|text|string|null:false|
-### Association
-- has_many :posts_tags
-- has_many :posts, through: :posts_tags
-
-
-## posts_tagsモデル
-|Column|Type|Options|
-|------|----|-------|
-|post_id|integer|null: false, foreign_key: true|
-|tag_id|integer|null: false, foreign_key: true|
-### Association
-- belongs_to :post
-- belongs_to :tag
-
 ## likesモデル
 |Column|Type|Options|
 |------|----|-------|
