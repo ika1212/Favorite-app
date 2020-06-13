@@ -1,6 +1,6 @@
 # Favorite-app
 
-# Favorite DB設計
+# 📄DB設計
 ## usersモデル
 |Column|Type|Options|
 |------|----|-------|
