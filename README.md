@@ -19,7 +19,7 @@
 
 ## 使用技術
 ![ruby](https://user-images.githubusercontent.com/64077722/84582964-042ce080-ae2e-11ea-82b5-b27e05716a97.png)
-![rails ](https://user-images.githubusercontent.com/64077722/84582894-0d697d80-ae2d-11ea-93f5-c1c867df1c7a.png)
+![rails ](https://user-images.githubusercontent.com/64077722/84582977-31798e80-ae2e-11ea-9b3c-457f8a7cdb2d.png)
 ![html](https://user-images.githubusercontent.com/64077722/84582898-10646e00-ae2d-11ea-812c-a62bda2ee150.jpg)
 ![sass](https://user-images.githubusercontent.com/64077722/84582893-0c385080-ae2d-11ea-853c-8046a9b3fe10.png)
 ![mysql](https://user-images.githubusercontent.com/64077722/84582896-0f334100-ae2d-11ea-82fc-84fa15724e69.png)
