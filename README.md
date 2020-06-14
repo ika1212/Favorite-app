@@ -11,7 +11,7 @@
 - 投稿一覧
 
 ## DEMO
-- 投稿機能 ![demo](https://user-images.githubusercontent.com/64077722/84584876-9809a700-ae44-11ea-9c22-b7d812f8757c.gif)
+- 投稿機能 ![demo](https://user-images.githubusercontent.com/64077722/84585203-39dec300-ae48-11ea-8d7c-7582a872c492.gif)
 
 
 ## 制作背景
