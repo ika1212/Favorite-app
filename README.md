@@ -21,8 +21,8 @@
 ![ruby](https://user-images.githubusercontent.com/64077722/84582964-042ce080-ae2e-11ea-82b5-b27e05716a97.png)
 ![rails ](https://user-images.githubusercontent.com/64077722/84582977-31798e80-ae2e-11ea-9b3c-457f8a7cdb2d.png)
 ![html](https://user-images.githubusercontent.com/64077722/84582991-61c12d00-ae2e-11ea-8cd8-e04a29abc4be.jpg)
-![sass](https://user-images.githubusercontent.com/64077722/84583019-a64cc880-ae2e-11ea-889f-7d0576ea51f5.png)
-![mysql](https://user-images.githubusercontent.com/64077722/84583024-c54b5a80-ae2e-11ea-9d61-79d1567c6b80.png)
+![sass](https://user-images.githubusercontent.com/64077722/84583051-0cd1e680-ae2f-11ea-9f5a-a64083f64be8.png)
+![mysql](https://user-images.githubusercontent.com/64077722/84583040-f035ae80-ae2e-11ea-9e9a-5c981bb0a19c.png)
 
 
 ## 課題や今後実装したい機能
