@@ -18,8 +18,7 @@
  幅広年代の方にも利用してもらえるよう、画像・文章を見やすくするため、大きさや配置を工夫しました。
 
 ## 使用技術
-![ruby](https://user-images.githubusercontent.com/64077722/84582953-d9db2300-ae2d-11ea-8117-9251fde7ed3b.png)
-
+![ruby](https://user-images.githubusercontent.com/64077722/84582964-042ce080-ae2e-11ea-82b5-b27e05716a97.png)
 ![rails ](https://user-images.githubusercontent.com/64077722/84582894-0d697d80-ae2d-11ea-93f5-c1c867df1c7a.png)
 ![html](https://user-images.githubusercontent.com/64077722/84582898-10646e00-ae2d-11ea-812c-a62bda2ee150.jpg)
 ![sass](https://user-images.githubusercontent.com/64077722/84582893-0c385080-ae2d-11ea-853c-8046a9b3fe10.png)
