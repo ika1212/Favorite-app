@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  layout 'user-show', only: :show
   def index
     @users = User.all
   end

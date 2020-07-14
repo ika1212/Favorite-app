@@ -17,7 +17,7 @@ class PostsController < ApplicationController
     @post = Post.create(post_params)
     @post.user_id = current_user.id
     if @post.save
-      redirect_back(fallback_location: root_path)
+      redirect_to root_path
     else
       redirect_back(fallback_location: root_path)
     end
@@ -25,8 +25,7 @@ class PostsController < ApplicationController
 
   def destroy
     post = Post.find(params[:id])
-    post.destroy
-   
+    post.destroy 
   end
 
 

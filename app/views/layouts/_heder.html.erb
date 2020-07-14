@@ -1,0 +1,20 @@
+ <div class="header">
+  <h1 class="header-title">
+  <%= link_to "Favorite", root_path, class: "header__title" %>
+  </h1>
+  <ul class="header-logo">
+    <%= link_to  new_post_path do%>
+      <li><i class="far fa-edit fa-2x"></i></li>
+    <% end %>
+  </ul>
+  <% if user_signed_in? %>
+    <div class="user_nav grid-6">
+      <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+  
+    </div>
+  <% else %>
+    <div class="grid-6">
+      <%= link_to "ログイン", new_user_session_path, class: 'post' %>
+      <%= link_to "新規登録", new_user_registration_path, class: 'post' %>
+    </div>
+  <% end %>
