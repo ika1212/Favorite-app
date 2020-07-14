@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Favorite</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <meta charset="utf-8">
+    <link rel="stylesheets" href="_reset.scss" >
+    <link rel="stylesheets" href="_post.scss" >
+    <link rel="stylesheets" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  </head>
+
+  <body>
+    <div class="user-show-contents">
+      <div class="user-show-contents__box-left">
+        <div class= "user-detail-box">
+          <p><i class= "fas fa-user-alt fa-5x "></i></p>
+          <h2 class="username"> <%= @user.nickname %> 
+
+        </div>
+      </div>
+      <div class="user-show-contents__box-main">
+       <h2>------------投稿した内容------------</h2>
+       
+        <div class= "post-box">
+          <% @user.posts.each do |post| %>
+            <%= render partial: "posts/post", locals: { post: post }%>
+          <% end %>
+        </div>
+        <h2>----------いいねした内容-----------</h2>
+        <div class= "good-box">
+          <% @user.liked_posts.each do |post| %>
+            <%= render partial: "posts/post", locals: { post: post }%>       
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
